@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "942349561526",
+    "project_id": "conexioncomunitaria-9cb02",
+    "storage_bucket": "conexioncomunitaria-9cb02.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:942349561526:android:14ff53ca0f42440b9c0017",
+        "android_client_info": {
+          "package_name": "com.example.proy_comunitario"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDv3BZHs0WsTMv1qKmO6uNH4A3lzD_BORE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightBrown"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttonX"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:background="@drawable/rounded_button"
+        android:backgroundTint="#FFFFFF"
+        android:backgroundTintMode="multiply"
+        android:drawableLeft="@drawable/velocimetro"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        app:iconTint="#FFFFFF"
+        app:iconTintMode="add"
+        app:layout_constraintBottom_toTopOf="@id/buttonY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        app:rippleColor="#FFFFFF"
+        app:strokeColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textViewX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Aceleración X: "
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:typeface="serif"
+        app:layout_constraintTop_toTopOf="@id/buttonX"
+        app:layout_constraintStart_toStartOf="@id/buttonX"
+        app:layout_constraintBottom_toBottomOf="@id/buttonX"
+        app:layout_constraintEnd_toEndOf="@id/buttonX"
+        app:layout_constraintVertical_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.5"/>
+
+    <Button
+        android:id="@+id/buttonY"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:background="@drawable/rounded_button"
+        android:drawableLeft="@drawable/velocimetro"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/buttonX"
+        app:layout_constraintBottom_toTopOf="@id/buttonZ"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <TextView
+        android:id="@+id/textViewY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Aceleración Y: "
+        android:textColor="@android:color/white"
+        android:background="@android:color/transparent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:typeface="serif"
+        app:layout_constraintTop_toTopOf="@id/buttonY"
+        app:layout_constraintStart_toStartOf="@id/buttonY"
+        app:layout_constraintBottom_toBottomOf="@id/buttonY"
+        app:layout_constraintEnd_toEndOf="@id/buttonY"
+        app:layout_constraintVertical_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.5"/>
+
+    <Button
+        android:id="@+id/buttonZ"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:background="@drawable/rounded_button"
+        android:drawableLeft="@drawable/velocimetro"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/buttonY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <TextView
+        android:id="@+id/textViewZ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Aceleración Z: "
+        android:textColor="@android:color/white"
+        android:background="@android:color/transparent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:typeface="serif"
+        app:layout_constraintTop_toTopOf="@id/buttonZ"
+        app:layout_constraintStart_toStartOf="@id/buttonZ"
+        app:layout_constraintBottom_toBottomOf="@id/buttonZ"
+        app:layout_constraintEnd_toEndOf="@id/buttonZ"
+        app:layout_constraintVertical_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.5"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

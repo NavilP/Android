@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Practica3_3_2_Tradicional" parent="TextAppearance.AppCompat.Display1" >
+        <item name="android:statusBarColor">@color/black</item>
+    </style>
+</resources>
